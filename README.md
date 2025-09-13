@@ -44,6 +44,7 @@ Usage
 cd "C:\Path\To\enrs"
 .\ransomware.ps1 -LabMode
 
+bypass powershell restriction : powershell -ExecutionPolicy Bypass -File "C:\Users\HP ELITEBOOK 840 G7\Desktop\transcripts\ransomware.ps1" -LabMode -Restore
 
 Moves files to .fake_ransom_backup
 
